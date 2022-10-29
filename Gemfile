@@ -63,6 +63,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 
+  gem "pry-byebug", "~> 3.10", ">= 3.10.1"
   gem "rubocop", "~> 1.37", ">= 1.37.1"
   gem "rubocop-rails", "~> 2.17", ">= 2.17.2"
 end
